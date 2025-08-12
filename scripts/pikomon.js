@@ -7,9 +7,9 @@ export const pikomonHTML = pikoDatabase.map(pikomon => {
         <img src="${pikomon.imageUrl}" alt=${pikomon.name}" class="piko-img">
         <h2 class="piko-name">${pikomon.name}</h2>
         <p class="piko-info">
-            <strong>Category:</strong> ${pikomon.category}<br>
-            <strong>Abilities:</strong> ${pikomon.abilities}<br>
-            <strong>Weakness:</strong> ${pikomon.weakness}
+            <strong class="piko-category">Category:</strong> ${pikomon.category}<br>
+            <strong class="piko-abilities">Abilities:</strong> ${pikomon.abilities}<br>
+            <strong class="piko-weakness">Weakness:</strong> ${pikomon.weakness}
         </p>
     </div>`
 }).join("")
